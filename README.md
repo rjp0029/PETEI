@@ -13,7 +13,7 @@ The specific CHARMM files that PETEI needs are top_all36_prot_na.rtf and par_all
 In "Extracellular Peptide-Ligand Dimerization Actuator Receptor Design for Reversible and Spatially Dosed 3D Cell-Material Communication", PETEI used an older version of the Dunbrack Rotamer Library. In this distribution, it has been updated to include rotamers from the 2010 library (DOI: 10.1016/j.str.2011.03.019), which is distributed under the CC BY 4.0 License. PETEI includes the rotamers it needs in the /resources/rotamers/ folder.
 
 # Creating Databases
-The distribution of PETEI includes one database, entitled 1TTGu, which can be used to design 10th Type III Fibronectin domains (i.e., monobodies) using the framework of chain A from PDB file 1TTG. This database is an "u"pdated version of the 1TTG database used in "Extracellular Peptide-Ligand Dimerization Actuator Receptor Design for Reversible and Spatially Dosed 3D Cell-Material Communication." The change is solely due to the update in the rotamers that PETEI uses, and the specific loops in the database match those in the manuscript.
+The distribution of PETEI includes one database, entitled 1TTGu, which can be used to design 10th Type III Fibronectin domains (i.e., monobodies) using the framework of chain A from PDB file 1TTG. This database is an "updated" version of the 1TTG database used in "Extracellular Peptide-Ligand Dimerization Actuator Receptor Design for Reversible and Spatially Dosed 3D Cell-Material Communication." The change is solely due to the update in the rotamers that PETEI uses, and the specific loops in the database match those in the manuscript.
 
 PETEI can be used to design any protein that binds target antigens using modular loops. New databases for design tasks can be created using the Database_Maker.py Python program included with the distribution of PETEI. That program is meant to be run from the main folder of PETEI and will automatically place a new database it creates in the /databases/ folder.
 
@@ -33,3 +33,27 @@ PETEI designs proteins using the Designer.py program included with the distribut
 PETEI uses a default tolerance of 0.33 Angstroms on deviations of interaction distances from their ideal geometries. If a user wishes to change this, it is in line 281 of /source/BPD/Design/Prepare.py. Because this is a Python file rather than a Cython file, PETEI does not need to be recompiled after changing this parameter. Note that the numbers of solutions found by PETEI are very sensitive to this threshold and it is not recommended that it be changed.
 
 The three target protein structures used in "Extracellular Peptide-Ligand Dimerization Actuator Receptor Design for Reversible and Spatially Dosed 3D Cell-Material Communication" are included in /structures/. Changes in the available rotamers led to changes in the binding loop database, which means that running this version of PETEI will not exactly duplicate the results of "Extracellular Peptide-Ligand Dimerization Actuator Receptor Design for Reversible and Spatially Dosed 3D Cell-Material Communication". The three monobodies used in studies of the paper were HA3, FLAG5, and MYC7. If this distribution of PETEI is run using the 1TTGu database and the provided target structure, successful solution 323 has 2 / 3 binding loops identical to HA3. Because PETEI requires no more than 1 binding to be the same between solutions, this precludes the exact identification of HA3. FLAG5 exactly corresponds to successful solution 78 when this distribution of PETEI is run using the provided FLAG antigen. Finally, successful solution 138 has 2 / 3 binding loops the same as MYC7 with this distribution of PETEI. 
+
+# Installation and Usage
+To download and install PETEI, navigate to your working directory:
+''' 
+cd /PATH/TO/WORKING/DIRECTORY/
+'''
+Then, clone the repository: 
+'''
+git clone https://github.com/rjp0029/PETEI.git
+'''
+Next, compile the code:
+''' 
+cd PETEI/source/ && python3 setup.py
+'''
+Obtain CHARMM topology and paramter files (top_all36_prot_na.rtf and par_all36_prot_na.prm) and place them in PETEI/resources/.
+Next, make the results folder:
+'''
+cd /PATH/TO/WORKING/DIRECTORY/PETEI/ && mkdir results
+'''
+Finally, run the database maker and designer scripts:
+'''
+python3 Database_Maker.py 
+python3 Desinger.py ./instructions/FLAG_Instructions.txt
+'''
