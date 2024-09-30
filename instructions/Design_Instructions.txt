@@ -1,0 +1,55 @@
+# Lines that start with '#' are treated as comments by the parser and ignored.
+# Blank lines are also ignored. Each command has a key phrase separated from the
+# information by a colon (:).
+
+# Instruction files are provided to Designer.py as command-line arguments. An
+# example command to run this file would be:
+# python3 Designer.py ./instructions/Design_Instructions.txt overwrite
+# The use of overwrite is OPTIONAL. The default is to not include it, but when
+# it is included it will cause PETEI to delete any existing results with the
+# same name as the one provided in the instruction file and overwrite them 
+# with newly calculated results.
+
+# General information
+
+# The name of the calculations
+Name: FLAG
+
+# Who is doing the calculations
+User: Robert Pantazes of Auburn University
+
+# The database to use for the design
+Database: 1TTGu
+
+# The maximum number of successful designs for PETEI to generate. 
+Maximum Designs: 50000
+
+# The minimum number of targeted exceptional interations for a solution to be 
+# successful. 4 was found to work well with the cutoff of 0.33 Angstroms for the
+# fibronectin calculations.
+Minimum Interactions: 4
+
+# The file (including the path to find it as part of the file name) of the
+# protein that should be bound. This must be PDB formatted information with all
+# atoms (including hydrogens) present.
+Antigen File: structures/5cxv_FLAG_minimized.pdb
+
+# Epitope residues are the residues in the antigen that PETEI should target.
+# Each entry must include two pieces of information: the chain of the protein
+# and the residue number.
+Epitope Residue: C 1
+Epitope Residue: C 2
+Epitope Residue: C 3
+Epitope Residue: C 4
+Epitope Residue: C 5
+Epitope Residue: C 6
+Epitope Residue: C 7
+
+# PETEI requires 3 resource files: a CHARMM topology file, a CHARMM parameter
+# file, and a file of Lazaridis-Karplus implicit solvation parameters. The LK 
+# parameter file is included in the distribution of PETEI in /resources/ but you
+# must provide your own copies of the CHARMM topology and parameter files
+CHARMM Topology File: ./resources/top_all36_prot.rtf
+CHARMM Parameter File: ./resources/par_all36_prot.prm
+LK Solvation File: ./resources/solvation.dat
+

@@ -1,0 +1,22 @@
+Name: MYC
+User: Robert Pantazes of Auburn University
+
+Database: 1TTGu
+Maximum Designs: 50000
+Minimum Interactions: 4
+
+Antigen File: structures/1a93_MYC_minimized.pdb
+Epitope Residue: D 6
+Epitope Residue: D 7
+Epitope Residue: D 9
+Epitope Residue: D 10
+Epitope Residue: D 11
+Epitope Residue: D 13
+Epitope Residue: D 14
+Epitope Residue: D 17
+Epitope Residue: D 18
+
+CHARMM Topology File: ./resources/top_all36_prot.rtf
+CHARMM Parameter File: ./resources/par_all36_prot.prm
+LK Solvation File: ./resources/solvation.dat
+

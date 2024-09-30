@@ -1,0 +1,20 @@
+Name: FLAG
+User: Robert Pantazes of Auburn University
+
+Database: 1TTGu
+Maximum Designs: 50000
+Minimum Interactions: 4
+
+Antigen File: structures/5cxv_FLAG_minimized.pdb
+Epitope Residue: C 1
+Epitope Residue: C 2
+Epitope Residue: C 3
+Epitope Residue: C 4
+Epitope Residue: C 5
+Epitope Residue: C 6
+Epitope Residue: C 7
+
+CHARMM Topology File: ./resources/top_all36_prot.rtf
+CHARMM Parameter File: ./resources/par_all36_prot.prm
+LK Solvation File: ./resources/solvation.dat
+

@@ -1,0 +1,22 @@
+Name: HA
+User: Robert Pantazes of Auburn University
+
+Database: 1TTGu
+Maximum Designs: 50000
+Minimum Interactions: 4
+
+Antigen File: structures/4we7_HA_minimized.pdb
+Epitope Residue: D 58
+Epitope Residue: D 59
+Epitope Residue: D 60
+Epitope Residue: D 61
+Epitope Residue: D 62
+Epitope Residue: D 63
+Epitope Residue: D 64
+Epitope Residue: D 65
+Epitope Residue: D 66
+
+CHARMM Topology File: ./resources/top_all36_prot.rtf
+CHARMM Parameter File: ./resources/par_all36_prot.prm
+LK Solvation File: ./resources/solvation.dat
+
