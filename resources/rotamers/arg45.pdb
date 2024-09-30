@@ -1,0 +1,26 @@
+REMARK 220 SIDE CHAIN COORDINATES GENERATED FROM 2010 DUNBRACK ROTAMER LIBRARY
+REMARK 220 SHAPOVALOV, M.S. AND DUNBRACK, R.L., JR. (2011). A SMOOTHED 
+REMARK 220 BACKBONE-DEPENDENT ROTAMER LIBRARY FOR PROTEINS DERIVED FROM ADAPTIVE
+REMARK 220 KERNEL DENSITY ESTIMATES AND REGRESSIONS. STRUCTURE, 19, 844-858
+REMARK 220 DOI: 10.1016/J.STR.2011.03.019
+ATOM      1  N   ARG     1      -1.480   0.000   0.000  1.00  0.00      ROT
+ATOM      2  CA  ARG     1       0.000   0.000   0.000  1.00  0.00      ROT
+ATOM      3  CB  ARG     1       0.553  -0.793  -1.207  1.00  0.00      ROT
+ATOM      4  HB1 ARG     1       0.045  -0.383  -2.112  1.00  0.00      ROT
+ATOM      5  HB2 ARG     1       1.635  -0.570  -1.335  1.00  0.00      ROT
+ATOM      6  CG  ARG     1       0.316  -2.322  -1.177  1.00  0.00      ROT
+ATOM      7  HG1 ARG     1       0.565  -2.699  -0.161  1.00  0.00      ROT
+ATOM      8  HG2 ARG     1      -0.771  -2.523  -1.313  1.00  0.00      ROT
+ATOM      9  CD  ARG     1       1.074  -3.094  -2.272  1.00  0.00      ROT
+ATOM     10  HD1 ARG     1       2.163  -2.873  -2.194  1.00  0.00      ROT
+ATOM     11  HD2 ARG     1       0.925  -4.194  -2.174  1.00  0.00      ROT
+ATOM     12  NE  ARG     1       0.520  -2.643  -3.594  1.00  0.00      ROT
+ATOM     13  HE  ARG     1       1.052  -1.899  -4.014  1.00  0.00      ROT
+ATOM     14  CZ  ARG     1      -0.573  -3.184  -4.151  1.00  0.00      ROT
+ATOM     15  NH1 ARG     1      -0.977  -2.708  -5.327  1.00  0.00      ROT
+ATOM     16 HH11 ARG     1      -1.794  -3.062  -5.760  1.00  0.00      ROT
+ATOM     17 HH12 ARG     1      -0.496  -1.897  -5.667  1.00  0.00      ROT
+ATOM     18  NH2 ARG     1      -1.236  -4.184  -3.580  1.00  0.00      ROT
+ATOM     19 HH21 ARG     1      -1.987  -4.616  -4.060  1.00  0.00      ROT
+ATOM     20 HH22 ARG     1      -0.821  -4.600  -2.782  1.00  0.00      ROT
+END

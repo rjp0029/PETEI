@@ -1,0 +1,14 @@
+Cluster 1
+Model: 3DXP_r_A_1
+Members: 1
+Maximum RMSD: 0.000
+Structures
+3DXP_r_A_1  0.000 VAL ALA LYS TYR ALA
+
+Cluster 2
+Model: 4HP4_r_B_1
+Members: 1
+Maximum RMSD: 0.000
+Structures
+4HP4_r_B_1  0.000 LEU LEU GLU VAL ILE
+

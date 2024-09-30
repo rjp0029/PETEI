@@ -1,0 +1,38 @@
+Cluster 1
+Model: 3NCE_r_B_1
+Members: 3
+Maximum RMSD: 0.266
+Structures
+3NCE_r_B_1  0.000 ILE THR GLY GLY PRO ASN SER CYS HIS PHE
+3D48_r_R_1  0.175 ILE THR GLY GLY PRO ASN SER CYS HIS PHE
+3EW3_r_B_1  0.266 LYS THR SER GLY PRO ASN SER CYS PHE PHE
+
+Cluster 2
+Model: 3WFJ_r_A_1
+Members: 2
+Maximum RMSD: 0.582
+Structures
+3WFJ_r_A_1  0.000 LYS LEU SER GLU SER GLY LEU ASN ALA HIS
+5WDX_r_A_1  0.582 ALA LEU ARG GLY MET GLY LEU ASN ALA VAL
+
+Cluster 3
+Model: 2R09_r_A_1
+Members: 1
+Maximum RMSD: 0.000
+Structures
+2R09_r_A_1  0.000 LYS LYS PHE ASN ASP PRO LYS LYS GLY ILE
+
+Cluster 4
+Model: 2RCL_r_A_1
+Members: 1
+Maximum RMSD: 0.000
+Structures
+2RCL_r_A_1  0.000 PRO GLY ALA PHE ILE ALA GLU ASN PRO GLN
+
+Cluster 5
+Model: 5XA0_r_B_1
+Members: 1
+Maximum RMSD: 0.000
+Structures
+5XA0_r_B_1  0.000 GLY VAL SER THR GLY GLU ASN ALA LEU GLU
+

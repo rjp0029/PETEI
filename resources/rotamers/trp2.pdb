@@ -1,0 +1,26 @@
+REMARK 220 SIDE CHAIN COORDINATES GENERATED FROM 2010 DUNBRACK ROTAMER LIBRARY
+REMARK 220 SHAPOVALOV, M.S. AND DUNBRACK, R.L., JR. (2011). A SMOOTHED 
+REMARK 220 BACKBONE-DEPENDENT ROTAMER LIBRARY FOR PROTEINS DERIVED FROM ADAPTIVE
+REMARK 220 KERNEL DENSITY ESTIMATES AND REGRESSIONS. STRUCTURE, 19, 844-858
+REMARK 220 DOI: 10.1016/J.STR.2011.03.019
+ATOM      1  N   TRP     1      -1.480   0.000   0.000  1.00  0.00      ROT
+ATOM      2  CA  TRP     1       0.000   0.000   0.000  1.00  0.00      ROT
+ATOM      3  CB  TRP     1       0.553  -0.793  -1.207  1.00  0.00      ROT
+ATOM      4  HB1 TRP     1       1.660  -0.841  -1.105  1.00  0.00      ROT
+ATOM      5  HB2 TRP     1       0.181  -1.840  -1.173  1.00  0.00      ROT
+ATOM      6  CG  TRP     1       0.260  -0.183  -2.571  1.00  0.00      ROT
+ATOM      7  CD1 TRP     1      -0.516   0.899  -2.886  1.00  0.00      ROT
+ATOM      8  HD1 TRP     1      -1.109   1.455  -2.171  1.00  0.00      ROT
+ATOM      9  NE1 TRP     1      -0.398   1.193  -4.223  1.00  0.00      ROT
+ATOM     10  HE1 TRP     1      -0.822   1.936  -4.694  1.00  0.00      ROT
+ATOM     11  CE2 TRP     1       0.467   0.293  -4.800  1.00  0.00      ROT
+ATOM     12  CD2 TRP     1       0.907  -0.592  -3.792  1.00  0.00      ROT
+ATOM     13  CE3 TRP     1       1.818  -1.617  -4.083  1.00  0.00      ROT
+ATOM     14  HE3 TRP     1       2.164  -2.305  -3.325  1.00  0.00      ROT
+ATOM     15  CZ3 TRP     1       2.275  -1.739  -5.403  1.00  0.00      ROT
+ATOM     16  HZ3 TRP     1       2.974  -2.525  -5.652  1.00  0.00      ROT
+ATOM     17  CZ2 TRP     1       0.925   0.166  -6.110  1.00  0.00      ROT
+ATOM     18  HZ2 TRP     1       0.597   0.836  -6.890  1.00  0.00      ROT
+ATOM     19  CH2 TRP     1       1.835  -0.861  -6.403  1.00  0.00      ROT
+ATOM     20  HH2 TRP     1       2.201  -0.977  -7.413  1.00  0.00      ROT
+END

@@ -1,0 +1,30 @@
+# General Information
+User: Robert Pantazes of Auburn University
+Name: 1TTGu
+
+# Information for assessing the framework protein(s)
+MD Folder: ./structures/1TTG/fibronectin/
+Atom Pair: CA CA
+Atom Pair: N N
+Atom Pair: C C
+Atom Pair: CB CB
+Atom Pair: CA CB
+Atom Pair: CB CA
+Atom Pair: O O
+
+Binding Loop: H1 A 22 30
+Binding Loop: H2 A 51 55
+Binding Loop: H3 A 76 87
+
+Rotamer Library: ./resources/rotamers/
+
+# Information for searching PDB structures for binding loops
+PDB File List: ./structures/1TTG/database_file_list.txt
+Loop Lengths: 4 11
+Maximum Structures: 1000
+CHARMM Topology File: ./resources/top_all36_prot.rtf
+CHARMM Parameter File: ./resources/par_all36_prot.prm
+LK Solvation File: ./resources/solvation.dat
+
+# Information for clustering binding loop structures
+Clustering RMSD Max: 1.5

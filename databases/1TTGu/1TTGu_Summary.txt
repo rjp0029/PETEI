@@ -1,0 +1,70 @@
+Creating the 1TTGu binding protein database started on 9/27/2024 at 15:55:18
+
+Identifying and positioning the framework copied from 1TTG
+Binding Loop H1 in Protein A
+CA - CA distance: 15.13206 +/- 0.00000
+N - N distance: 15.07598 +/- 0.00000
+C - C distance: 14.07613 +/- 0.00000
+CB - CB distance: 15.20348 +/- 0.00000
+CA - CB distance: 16.34155 +/- 0.00000
+CB - CA distance: 14.05301 +/- 0.00000
+O - O distance: 14.10316 +/- 0.00000
+Binding Loop H2 in Protein A
+CA - CA distance: 10.62458 +/- 0.00000
+N - N distance: 8.86026 +/- 0.00000
+C - C distance: 10.66624 +/- 0.00000
+CB - CB distance: 12.62363 +/- 0.00000
+CA - CB distance: 11.78178 +/- 0.00000
+CB - CA distance: 11.53266 +/- 0.00000
+O - O distance: 11.91918 +/- 0.00000
+Binding Loop H3 in Protein A
+CA - CA distance: 10.48940 +/- 0.00000
+N - N distance: 8.78286 +/- 0.00000
+C - C distance: 12.93745 +/- 0.00000
+CB - CB distance: 10.73720 +/- 0.00000
+CA - CB distance: 10.63433 +/- 0.00000
+CB - CA distance: 10.37870 +/- 0.00000
+O - O distance: 14.20759 +/- 0.00000
+Framework Pieces Identified: 4
+Identifying and positioning the framework ended
+
+Searching for binding loop structures copied from 1TTG
+H1 Binding Loop: 1000 structures identified
+H2 Binding Loop: 1000 structures identified
+H3 Binding Loop: 1000 structures identified
+Searching for binding loop structures ended
+
+Clustering the binding loop structures started on 9/27/2024 at 15:55:20
+H1 structures of 5 residues: 2 structures were grouped into 2 clusters
+H1 structures of 6 residues: 99 structures were grouped into 4 clusters
+H1 structures of 7 residues: 287 structures were grouped into 9 clusters
+H1 structures of 8 residues: 265 structures were grouped into 15 clusters
+H1 structures of 9 residues: 137 structures were grouped into 27 clusters
+H1 structures of 10 residues: 122 structures were grouped into 25 clusters
+H1 structures of 11 residues: 88 structures were grouped into 29 clusters
+H2 structures of 4 residues: 6 structures were grouped into 1 clusters
+H2 structures of 5 residues: 891 structures were grouped into 2 clusters
+H2 structures of 6 residues: 44 structures were grouped into 3 clusters
+H2 structures of 7 residues: 18 structures were grouped into 4 clusters
+H2 structures of 8 residues: 10 structures were grouped into 4 clusters
+H2 structures of 9 residues: 10 structures were grouped into 4 clusters
+H2 structures of 10 residues: 8 structures were grouped into 5 clusters
+H2 structures of 11 residues: 13 structures were grouped into 4 clusters
+H3 structures of 6 residues: 14 structures were grouped into 2 clusters
+H3 structures of 7 residues: 88 structures were grouped into 7 clusters
+H3 structures of 8 residues: 454 structures were grouped into 10 clusters
+H3 structures of 9 residues: 160 structures were grouped into 16 clusters
+H3 structures of 10 residues: 145 structures were grouped into 24 clusters
+H3 structures of 11 residues: 139 structures were grouped into 36 clusters
+Clustering the binding loop structures ended on 9/27/2024 at 15:56:21
+
+Finding compatible binding loop structures started on 9/27/2024 at 15:56:21
+H1 Binding Loop: 707 usable structures identified
+H2 Binding Loop: 708 usable structures identified
+H3 Binding Loop: 958 usable structures identified
+Finding compatible binding loop structures ended on 9/27/2024 at 16:03:59
+
+Finding optimal interaction positions started on 9/27/2024 at 16:03:59
+Database Generation finished on 9/27/2024 at 16:06:07
+
+
