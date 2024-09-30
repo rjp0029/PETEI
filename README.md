@@ -36,24 +36,24 @@ The three target protein structures used in "Extracellular Peptide-Ligand Dimeri
 
 # Installation and Usage
 To download and install PETEI, navigate to your working directory:
-''' 
+```
 cd /PATH/TO/WORKING/DIRECTORY/
-'''
+```
 Then, clone the repository: 
-'''
+```
 git clone https://github.com/rjp0029/PETEI.git
-'''
+```
 Next, compile the code:
-''' 
+``` 
 cd PETEI/source/ && python3 setup.py
-'''
+```
 Obtain CHARMM topology and paramter files (top_all36_prot_na.rtf and par_all36_prot_na.prm) and place them in PETEI/resources/.
 Next, make the results folder:
-'''
+```
 cd /PATH/TO/WORKING/DIRECTORY/PETEI/ && mkdir results
-'''
+```
 Finally, run the database maker and designer scripts:
-'''
-python3 Database_Maker.py 
+```
+python3 Database_Maker.py ./instructions/Database_Instructions.txt
 python3 Desinger.py ./instructions/FLAG_Instructions.txt
-'''
+```
