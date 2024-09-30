@@ -54,8 +54,8 @@ Next, make the results folder:
 ```
 cd /PATH/TO/WORKING/DIRECTORY/PETEI/ && mkdir results
 ```
-Finally, run the database maker and designer scripts:
+Finally, create instruction files for your database or design calculations and run the database maker and designer scripts:
 ```
 python3 Database_Maker.py ./instructions/Database_Instructions.txt
-python3 Designer.py ./instructions/FLAG_Instructions.txt
+python3 Designer.py ./instructions/Design_Instructions.txt
 ```
