@@ -28,7 +28,7 @@ PETEI uses a default tolerance of 0.225 Angstroms on atom-atom distances for loo
 # Designing Binding Proteins
 To design proteins to bind a protein, PETEI needs a structure of the target protein of interest. As with creating the databases, that protein structure must contain all atoms, including hydrogens. 
 
-PETEI designs proteins using the Designer.py program included with the distribution of PETEI. That program is meant to be run from the main folder of PETEI and will automatically place its findings in the /results/ folder. Additional specific information about how to provide instructions to the Designer.py program are in the /instructions/Design_Instructions.txt file of the distribution.
+PETEI designs proteins using the Designer.py program included with the distribution of PETEI. That program is meant to be run from the main folder of PETEI and will automatically place its findings in a /results/ folder. It is likely you will have to initially create this folder. Additional specific information about how to provide instructions to the Designer.py program are in the /instructions/Design_Instructions.txt file of the distribution.
 
 PETEI uses a default tolerance of 0.33 Angstroms on deviations of interaction distances from their ideal geometries. If a user wishes to change this, it is in line 281 of /source/BPD/Design/Prepare.py. Because this is a Python file rather than a Cython file, PETEI does not need to be recompiled after changing this parameter. Note that the numbers of solutions found by PETEI are very sensitive to this threshold and it is not recommended that it be changed.
 
