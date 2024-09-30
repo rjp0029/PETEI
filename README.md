@@ -3,7 +3,9 @@ Proteins Engineered with Targeted Exceptional Interactions (PETEI) is a binding 
 
 # Compiling Cython Code
 PETEI requires the use of C++ extension files for Python3, which are compiled with Cython. To do so, use the setup.py script provided in the source folder. From that folder, run the command:
+
 python3 setup.py build_ext -i
+
 The most recent testing of PETEI by the PROTEIN PANT(z) Lab used Python 3.9.10 and Cython 0.29.25. Cython used gcc version 11.3.0 to compile the extension modules.
 
 # Needed External Resources
