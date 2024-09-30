@@ -10,7 +10,7 @@ The most recent testing of PETEI by the PROTEIN PANT(z) Lab used Python 3.9.10 a
 
 # Needed External Resources
 PETEI uses parameters from the Chemistry at HARvard Molecular Mechanics (CHARMM) program during parts of its calculations. Information about CHARMM is available here: https://academiccharmm.org/. CHARMM is free for use for academic users, but has its own licensing requirements.
-The specific CHARMM files that PETEI needs are top_all36_prot_na.rtf and par_all36_prot_na.prm, which are the standard topology and parameter files for the program.
+The specific CHARMM files that PETEI needs are top_all36_prot.rtf and par_all36_prot.prm, which are the standard topology and parameter files for the program.
 
 In "Extracellular Peptide-Ligand Dimerization Actuator Receptor Design for Reversible and Spatially Dosed 3D Cell-Material Communication", PETEI used an older version of the Dunbrack Rotamer Library. In this distribution, it has been updated to include rotamers from the 2010 library (DOI: 10.1016/j.str.2011.03.019), which is distributed under the CC BY 4.0 License. PETEI includes the rotamers it needs in the /resources/rotamers/ folder.
 
@@ -49,7 +49,7 @@ Next, compile the code:
 ``` 
 cd PETEI/source/ && python3 setup.py
 ```
-Obtain CHARMM topology and paramter files (top_all36_prot_na.rtf and par_all36_prot_na.prm) and place them in PETEI/resources/\
+Obtain CHARMM topology and paramter files (top_all36_prot.rtf and par_all36_prot.prm) and place them in PETEI/resources/\
 Next, make the results folder:
 ```
 cd /PATH/TO/WORKING/DIRECTORY/PETEI/ && mkdir results
