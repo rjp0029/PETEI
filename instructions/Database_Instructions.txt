@@ -1,0 +1,77 @@
+# Lines that start with '#' are treated as comments by the parser and ignored.
+# Blank lines are also ignored. Each command has a key phrase separated from the
+# information by a colon (:).
+
+# Instruction files are provided to Database_Maker.py as command-line arguments. 
+# An example command to run this file would be:
+# python3 Database_Maker.py ./instructions/Database_Instructions.txt
+
+# General Information
+
+# The User is who is doing the calculations. 
+User: Robert Pantazes of Auburn University
+
+# Name is the name of the database that is being created. It must be a unique
+# name in the databases folder. If a database with that name already exists, the 
+# program will terminate
+Name: 1TTGu
+
+# Information for assessing the framework protein(s)
+
+# PETEI was envisioned as using the results of Molecular Dynamics simulations to 
+# understand the flexibility of the attachment points of the binding loops. The 
+# name of this instruction is a hold-over from that time. While PETEI could
+# still use this information, the quality of results has never been tested and 
+# doing so is NOT recommended.
+# PETEI will load ALL files from the specified MD folder. Place your file of
+# interest in a folder by itself. The structure must have all atoms, including 
+# hydrogens.
+MD Folder: ./structures/1TTG/fibronectin/
+
+# Atom Pair information is which pairs of atoms to check distance information 
+# for. It is recommended that you include these 7 lines verbatim and not make
+# any changes to them.
+Atom Pair: CA CA
+Atom Pair: N N
+Atom Pair: C C
+Atom Pair: CB CB
+Atom Pair: CA CB
+Atom Pair: CB CA
+Atom Pair: O O
+
+# Binding Loop specifies a portion of the protein framework that is being 
+# replaced in the search. It contains 4 pieces of information: a unique name
+# (e.g., H1), the chain of the protein in the PDB file(s) in the MD folder,
+# the starting residue of the loop, and the ending residue of the loop.
+Binding Loop: H1 A 22 30
+Binding Loop: H2 A 51 55
+Binding Loop: H3 A 76 87
+
+# Information for searching PDB structures for binding loops
+
+# The PDB File List is the file that contains a list of PDB files to search for 
+# loops. Each row in the file must contain two entries: the name of a file to
+# analyze and the folder in which it is located.
+PDB File List: ./structures/1TTG/database_file_list.txt
+
+# Loop Lengths are the minimum and maximum acceptable lengths of the binding
+# loops
+Loop Lengths: 3 11
+
+# PETEI searches for up to the Maximum Structures for each binding loop as it
+# finds possible binding loops. If it exceeds this number, it discards those
+# that fit the attachment points least well.
+Maximum Structures: 1000
+
+# PETEI needs 3 resource files: CHARMM Topology, CHARMM Parameter, and
+# Lazaridis-Karplus implicit solvation. The LK solvation file is included in 
+# /resources/, but you have to provide your own copies of the CHARMM topology 
+# and parameter files
+CHARMM Topology File: ./resources/top_all36_prot.rtf
+CHARMM Parameter File: ./resources/par_all36_prot.prm
+LK Solvation File: ./resources/solvation.dat
+
+# Information for clustering binding loop structures. This information does not
+# effect the database of binding loops created in any way, but does effect the
+# summary analysis of their similarities.
+Clustering RMSD Max: 1.5
