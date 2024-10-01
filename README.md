@@ -47,7 +47,7 @@ git clone https://github.com/rjp0029/PETEI.git
 ```
 Next, compile the code:
 ``` 
-cd PETEI/source/ && python3 setup.py
+cd PETEI/source/ && python3 setup.py build_ext -i
 ```
 Obtain CHARMM topology and paramter files (top_all36_prot.rtf and par_all36_prot.prm) and place them in PETEI/resources/\
 Next, make the results folder:
